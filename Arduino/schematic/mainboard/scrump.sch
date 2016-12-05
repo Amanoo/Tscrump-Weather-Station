@@ -1674,6 +1674,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="0" y1="15.24" x2="0" y2="0" width="0.127" layer="21"/>
 <circle x="0.9525" y="2.8575" radius="0.3175" width="0.635" layer="21"/>
 </package>
+<package name="LDR-ROUND">
+<circle x="0" y="0" radius="7.5" width="0.127" layer="21"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<pad name="P$1" x="-5.08" y="0" drill="0.8" shape="octagon"/>
+<pad name="P$2" x="5.08" y="0" drill="0.8" shape="octagon"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHEAD-FTSH">
@@ -1787,6 +1794,28 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pin name="SDA" x="-2.54" y="2.54" length="middle"/>
 <text x="0" y="15.24" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="95" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="LDR-ROUND">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="7.2136" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-4.445" y="-6.477" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<circle x="0" y="0" radius="3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-3.81" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="3.81" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="4.445" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.175" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-4.445" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1932,6 +1961,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connect gate="G$1" pin="IO" pad="1"/>
 <connect gate="G$1" pin="SCL" pad="4"/>
 <connect gate="G$1" pin="SDA" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LDR-ROUND" prefix="B">
+<gates>
+<gate name="G$1" symbol="LDR-ROUND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LDR-ROUND">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2288,7 +2333,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="22R"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="22R"/>
-<part name="B1" library="mylibrary" deviceset="BMP180" device="BREAKOUT"/>
+<part name="B2" library="mylibrary" deviceset="BMP180" device="BREAKOUT"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -2300,6 +2345,10 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
+<part name="B1" library="mylibrary" deviceset="LDR-ROUND" device=""/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
+<part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3041,42 +3090,68 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <plain>
 </plain>
 <instances>
-<instance part="B1" gate="G$1" x="45.72" y="149.86"/>
+<instance part="B2" gate="G$1" x="45.72" y="149.86"/>
 <instance part="FRAME2" gate="G$1" x="2.54" y="2.54"/>
 <instance part="+3V36" gate="G$1" x="25.4" y="165.1"/>
 <instance part="GND19" gate="1" x="25.4" y="152.4"/>
+<instance part="B1" gate="G$1" x="33.02" y="129.54"/>
+<instance part="R6" gate="G$1" x="40.64" y="121.92" rot="R270"/>
+<instance part="+3V37" gate="G$1" x="25.4" y="134.62"/>
+<instance part="GND20" gate="1" x="40.64" y="111.76"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="3V3"/>
+<pinref part="B2" gate="G$1" pin="3V3"/>
 <pinref part="+3V36" gate="G$1" pin="+3V3"/>
 <wire x1="43.18" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="160.02" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="+3V37" gate="G$1" pin="+3V3"/>
+<wire x1="25.4" y1="129.54" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="GND"/>
+<pinref part="B2" gate="G$1" pin="GND"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="43.18" y1="157.48" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="157.48" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="114.3" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="SCL"/>
+<pinref part="B2" gate="G$1" pin="SCL"/>
 <wire x1="43.18" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
 <label x="38.1" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="SDA"/>
+<pinref part="B2" gate="G$1" pin="SDA"/>
 <wire x1="43.18" y1="152.4" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
 <label x="38.1" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="A0" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="B1" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="127" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
+<junction x="40.64" y="129.54"/>
+<label x="43.18" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
