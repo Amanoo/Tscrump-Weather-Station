@@ -1681,6 +1681,73 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pad name="P$1" x="-5.08" y="0" drill="0.8" shape="octagon"/>
 <pad name="P$2" x="5.08" y="0" drill="0.8" shape="octagon"/>
 </package>
+<package name="RN2483">
+<smd name="P$1" x="17.78" y="1.27" dx="1.5" dy="1" layer="1"/>
+<smd name="P$2" x="17.78" y="2.54" dx="1.5" dy="1" layer="1"/>
+<smd name="P$3" x="17.78" y="3.81" dx="1.5" dy="1" layer="1"/>
+<smd name="P$4" x="17.78" y="5.08" dx="1.5" dy="1" layer="1"/>
+<smd name="P$5" x="17.78" y="6.35" dx="1.5" dy="1" layer="1"/>
+<smd name="P$6" x="17.78" y="7.62" dx="1.5" dy="1" layer="1"/>
+<smd name="P$7" x="17.78" y="8.89" dx="1.5" dy="1" layer="1"/>
+<smd name="P$8" x="17.78" y="10.16" dx="1.5" dy="1" layer="1"/>
+<smd name="P$9" x="17.78" y="11.43" dx="1.5" dy="1" layer="1"/>
+<smd name="P$10" x="17.78" y="12.7" dx="1.5" dy="1" layer="1"/>
+<smd name="P$11" x="17.78" y="13.97" dx="1.5" dy="1" layer="1"/>
+<smd name="P$12" x="17.78" y="15.24" dx="1.5" dy="1" layer="1"/>
+<smd name="P$13" x="17.78" y="16.51" dx="1.5" dy="1" layer="1"/>
+<smd name="P$14" x="17.78" y="17.78" dx="1.5" dy="1" layer="1"/>
+<smd name="P$15" x="17.78" y="19.05" dx="1.5" dy="1" layer="1"/>
+<smd name="P$16" x="17.78" y="20.32" dx="1.5" dy="1" layer="1"/>
+<smd name="P$17" x="17.78" y="21.59" dx="1.5" dy="1" layer="1"/>
+<smd name="P$18" x="17.78" y="22.86" dx="1.5" dy="1" layer="1"/>
+<smd name="P$19" x="17.78" y="24.13" dx="1.5" dy="1" layer="1"/>
+<smd name="P$20" x="17.78" y="25.4" dx="1.5" dy="1" layer="1"/>
+<smd name="P$21" x="12.7" y="26.67" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$22" x="11.5" y="26.67" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$23" x="10.2" y="26.67" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$24" x="8.9" y="26.67" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$25" x="7.6" y="26.67" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$26" x="6.3" y="26.67" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$27" x="5.1" y="26.67" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$28" x="0" y="25.4" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$29" x="0" y="24.13" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$30" x="0" y="22.86" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$31" x="0" y="21.59" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$32" x="0" y="20.32" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$33" x="0" y="19.05" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$34" x="0" y="17.78" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$35" x="0" y="16.51" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$36" x="0" y="15.24" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$37" x="0" y="13.97" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$38" x="0" y="12.7" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$39" x="0" y="11.43" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$40" x="0" y="10.16" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$41" x="0" y="8.89" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$42" x="0" y="7.62" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$43" x="0" y="6.35" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$44" x="0" y="5.08" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$45" x="0" y="3.81" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$46" x="0" y="2.54" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="P$47" x="0" y="1.27" dx="1.5" dy="1" layer="1" rot="R180"/>
+<wire x1="0" y1="0" x2="17.8" y2="0" width="0.127" layer="21"/>
+<wire x1="17.8" y1="0" x2="17.8" y2="26.67" width="0.127" layer="21"/>
+<wire x1="17.8" y1="26.67" x2="0" y2="26.67" width="0.127" layer="21"/>
+<wire x1="0" y1="26.67" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="1.27" y="24.13" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="1.27" y="1.27" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="DHT11">
+<pad name="P$1" x="-3.81" y="0" drill="0.8" shape="octagon"/>
+<pad name="P$2" x="-1.27" y="0" drill="0.8" shape="octagon"/>
+<pad name="P$3" x="1.27" y="0" drill="0.8" shape="octagon"/>
+<pad name="P$4" x="3.81" y="0" drill="0.8" shape="octagon"/>
+<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
+<wire x1="6" y1="3" x2="6" y2="18.5" width="0.127" layer="21"/>
+<wire x1="6" y1="18.5" x2="-6" y2="18.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="18.5" x2="-6" y2="3" width="0.127" layer="21"/>
+<text x="-5.08" y="16.51" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-5.08" y="3.81" size="1.27" layer="25" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHEAD-FTSH">
@@ -1816,6 +1883,30 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="-2.54" y1="3.81" x2="-2.54" y2="4.445" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="3.175" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="2.54" x2="-4.445" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RN2483">
+<wire x1="0" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="15.24" width="0.254" layer="94"/>
+<wire x1="17.78" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="-5.08" y="2.54" length="middle"/>
+<pin name="VCC" x="-5.08" y="12.7" length="middle"/>
+<pin name="TX" x="-5.08" y="7.62" length="middle"/>
+<pin name="RX" x="-5.08" y="10.16" length="middle"/>
+<pin name="RFH" x="-5.08" y="5.08" length="middle"/>
+<text x="7.62" y="12.7" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="7.62" y="2.54" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="DHT11">
+<wire x1="0" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<pin name="VCC" x="-5.08" y="7.62" length="middle"/>
+<pin name="DATA" x="-5.08" y="5.08" length="middle"/>
+<pin name="GND" x="-5.08" y="2.54" length="middle"/>
+<text x="2.54" y="10.16" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="95" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1977,6 +2068,42 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RN2483">
+<gates>
+<gate name="G$1" symbol="RN2483" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RN2483">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$1 P$8 P$11 P$20 P$21 P$22 P$24 P$26 P$27 P$28 P$33 P$41 P$47"/>
+<connect gate="G$1" pin="RFH" pad="P$23"/>
+<connect gate="G$1" pin="RX" pad="P$7"/>
+<connect gate="G$1" pin="TX" pad="P$6"/>
+<connect gate="G$1" pin="VCC" pad="P$12 P$34"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DHT11">
+<gates>
+<gate name="G$1" symbol="DHT11" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="DHT11">
+<connects>
+<connect gate="G$1" pin="DATA" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$4"/>
+<connect gate="G$1" pin="VCC" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2269,6 +2396,56 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X01">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PINHD1">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CNAME" value="Tschrump Weather Station"/>
@@ -2349,6 +2526,15 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
+<part name="U$1" library="mylibrary" deviceset="RN2483" device=""/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND21" library="supply1" deviceset="GND" device=""/>
+<part name="U$2" library="mylibrary" deviceset="DHT11" device=""/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="4k7"/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2424,6 +2610,10 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <instance part="SUPPLY4" gate="G$1" x="241.3" y="53.34"/>
 <instance part="SUPPLY5" gate="G$1" x="254" y="53.34"/>
 <instance part="SUPPLY6" gate="G$1" x="256.54" y="147.32"/>
+<instance part="U$1" gate="G$1" x="50.8" y="25.4"/>
+<instance part="+3V1" gate="G$1" x="43.18" y="43.18"/>
+<instance part="GND21" gate="1" x="43.18" y="22.86"/>
+<instance part="JP1" gate="G$1" x="25.4" y="30.48" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2564,6 +2754,12 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="233.68" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
 <label x="228.6" y="165.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="45.72" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="27.94" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
@@ -2656,6 +2852,12 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
 <wire x1="33.02" y1="149.86" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
 <junction x="33.02" y="147.32"/>
+</segment>
+<segment>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="43.18" y1="38.1" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="43.18" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -2918,12 +3120,22 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="109.22" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
 <label x="116.84" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RX"/>
+<wire x1="45.72" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<label x="40.64" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RXD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB23(SER5:3+)"/>
 <wire x1="109.22" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <label x="116.84" y="96.52" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="TX"/>
+<wire x1="45.72" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
+<label x="40.64" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3083,6 +3295,13 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="177.8" y1="60.96" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RFH"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -3098,6 +3317,11 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <instance part="R6" gate="G$1" x="40.64" y="121.92" rot="R270"/>
 <instance part="+3V37" gate="G$1" x="25.4" y="134.62"/>
 <instance part="GND20" gate="1" x="40.64" y="111.76"/>
+<instance part="U$2" gate="G$1" x="106.68" y="152.4"/>
+<instance part="+3V2" gate="G$1" x="99.06" y="175.26"/>
+<instance part="GND22" gate="1" x="99.06" y="149.86"/>
+<instance part="R7" gate="G$1" x="91.44" y="165.1" rot="R270"/>
+<instance part="+3V3" gate="G$1" x="91.44" y="175.26"/>
 </instances>
 <busses>
 </busses>
@@ -3115,6 +3339,17 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <pinref part="B1" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="101.6" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="160.02" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="91.44" y1="170.18" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -3127,6 +3362,12 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="114.3" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="101.6" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="154.94" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -3152,6 +3393,17 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="40.64" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
 <junction x="40.64" y="129.54"/>
 <label x="43.18" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="D4" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="DATA"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="157.48" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
+<junction x="91.44" y="157.48"/>
+<label x="88.9" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
